@@ -1,0 +1,12 @@
+[project]
+name = "mobile-forensic-toolkit"
+version = "0.1.0"
+description = "Starter toolkit for Android and Apple mobile forensics."
+authors = [
+  { name = "Mobile Forensic Toolkit" }
+]
+readme = "README.md"
+requires-python = ">=3.9"
+
+[project.scripts]
+mobile-forensic = "forensic_toolkit.cli:main"
